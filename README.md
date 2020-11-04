@@ -27,6 +27,14 @@ However none of that work is required as the app is continuously running on a fr
 
 Here is the link: [https://cardswithfriends.herokuapp.com/](https://cardswithfriends.herokuapp.com/)
 
+### Deploying to Heroku
+
+- Install maven
+- Install Heroku CLI
+- Make/have an app on heroku
+- Set the app name in the pom.xml file under the heroku-maven-plugin plugin
+- Run 'mvn clean heroku:deploy' from the project directory
+
 ### Test Results
 
 A sample run of the tests can be found in testresults.txt in the root directory.
