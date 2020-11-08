@@ -29,6 +29,7 @@ Here is the link: [https://cardswithfriends.herokuapp.com/](https://cardswithfri
 
 ### Deploying to Heroku
 
+- Install Java 8 (and have it on your path)
 - Install maven
 - Install Heroku CLI
 - Make/have an app on heroku
